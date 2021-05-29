@@ -2,3 +2,46 @@ body {
   font-family: "Fira Sans", sans-serif;
   background-color: #4c91cf;
 }
+#login_container {
+  padding: 20vh;
+  text-align: center;
+}
+h1 {
+  color: white;
+  font-weight: bold;
+}
+i {
+  font-size: 40px;
+  color: white;
+}
+#Input_fields_box input {
+  padding: 12px;
+  border-radius: 3px;
+  border-style: none;
+  outline: none;
+}
+#Input_fields_box [type="password"] {
+  border-top: 1px solid grey;
+}
+#Input_fields_box input:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+button {
+  width: 195px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 3px;
+  border-style: none;
+  color: white;
+  background-color: #1881da;
+}
+p {
+  color: white;
+  font-size: 14px;
+}
+.SignInHere {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
