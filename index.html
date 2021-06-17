@@ -353,3 +353,42 @@ if ($d == "Saturday") {
                echo "Wonder which day is this ?";
          }
       ?>
+
+<!-- for loop -->
+
+      <?php
+      $v_init = 1;
+      $v_stop  = 21;
+           for( $i = $v_init; $i<$v_stop; $i++ ) {
+               echo $i;
+          }
+      ?>
+
+<!-- function -->
+
+      <?php 
+
+// Defining a PHP Function 
+function writeMessage() { 
+	echo "You are really a nice person, Have a nice time!"; 
+} 
+
+// Calling a PHP Function 
+writeMessage(); 
+
+// Your code here
+function reusableFunction() {
+echo "Hello World!";
+}
+reusableFunction();
+?>
+
+
+<!-- echo  -->
+
+
+<?php
+
+// Write your code below this line
+echo 10/2;
+?>
